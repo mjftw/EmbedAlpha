@@ -43,6 +43,11 @@
 *.idb
 *.pdb
 
+# VS Code
+.project
+.cproject
+.vscode/*
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
