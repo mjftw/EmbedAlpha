@@ -13,15 +13,15 @@ extern "C"
 *     - Read an Led
 *   + Basic Multi Led Tests
 *     - Write 0xFFFF to Led 0
-*     - Write 0xFFFF to Led 72
-*     - Write 0xFFFF to Led 143
+*     - Write 0xFFFF to Led N/2
+*     - Write 0xFFFF to Led N-1
 *     - Write 0xFFFF to Led -1 does nothing
-*     - Write 0xFFFF to Led 144 does nothing
+*     - Write 0xFFFF to Led N does nothing
 *     - Read from Led 0
-*     - Read from Led 72
-*     - Read from Led 143
+*     - Read from Led N/2
+*     - Read from Led N-1
 *     - Read from Led -1 does nothing
-*     - Read from Led 144 does nothing
+*     - Read from Led N does nothing
 *     - Write 0xFFFF to all Leds
 *   + RGBI tests
 *     - Set an Led intensity to 0
